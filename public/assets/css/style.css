@@ -614,7 +614,8 @@ header .navbar ul li a:hover {
 /* education section starts */
 .education {
   background: #e5ecfb;
-  min-height: 80vh;
+  min-height: 60vh;
+  max-height: 120vh;
 }
 .education .qoute {
   font-size: 1.5rem;
@@ -648,8 +649,8 @@ header .navbar ul li a:hover {
   box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
 }
 .education .box-container .box .image {
-  flex: 1 1 20rem;
-  width: 100%;
+  flex: 1 1 5rem;
+  width: 80%;
 }
 .education .box-container .box img {
   object-fit: cover;
@@ -663,7 +664,7 @@ header .navbar ul li a:hover {
   flex-direction: column;
   padding: 1rem;
   flex-wrap: wrap;
-  flex: 1 1 70rem;
+  flex: 1 1 80rem;
 }
 .education .box-container .box .content h3 {
   font-size: 2.5rem;
