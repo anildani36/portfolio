@@ -1,26 +1,38 @@
-#Portfolio Project
+# Portfolio Project
 
-####This is a site made by HTML, CSS and Bootstrap
+## Author
+**Anil Dani**
 
-####Anil Dani
+## Description
+This site is a simple yet responsive design for a portfolio. It is my first independent project and showcases my previous work history, educational background, and links to my social media pages.
 
-Description
-This site is a simple but responsive design for portfolio. It is the first independent project from me. It will show previous work history, schools attended and have links to my social pages.
+## Setup/Installation Requirements
+1. Open the terminal or a similar app on your computer.
+2. Change the directory to Desktop:
+   ```sh
+   cd Desktop
+   ```
+3. Clone the repository:
+   ```sh
+   git clone https://github.com/anildani36/portfolio
+   ```
+4. Navigate to the cloned folder:
+   ```sh
+   cd portfolio
+   ```
+5. Open the `index.html` file in your preferred web browser to view the portfolio.
 
-Setup/Installation Requirements
-Open terminal or a similar app on your computer
-change directory to Desktop
-copy https://github.com/anildani36/portfolio
-use git clone and paste that link after it to clone the repository
-open the folder it provides
-open the HTML folder inside
+## Known Bugs
+1. **Contact Us Form**: Currently not functioning as expected.
+2. **Projects Managed Section**: Needs to be updated with recent projects.
 
-Known Bugs
-Contact Us Form
-Projects Managed Only Image Display and not due page for individual
+## Contact Details
+If you have any questions or feedback, please reach out to me at:
+- **Email**: [anildani36@gmail.com](mailto:anildani36@gmail.com)
 
-Contact Details
-email: anildani36@gmail.com
-
-Technologies Used
-HTML CSS Bootstrap JavaScript
+## Technologies Used
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- jQuery 
