@@ -52,6 +52,43 @@ document.addEventListener('visibilitychange', function () {
 });
 // title favicon ends here
 
+//configuration for contact us form
+document.addEventListener('DOMContentLoaded', function () {
+  // Get the form element
+  const form = document.getElementById('userForm');
+
+  // Add an event listener to handle the form submission
+  form.addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      // Get the values of the input fields
+      const username = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const phone = document.getElementById('phone').value;
+      const message = document.getElementById('message').value;
+
+      // Show an alert with the values
+      const success = false; // Dummy success code for demonstration
+      if(success) {
+        swal({
+          title: "Email Sent!",
+          text: "Thank you for reaching out! \nYour message has been successfully sent. I will get back to you as soon as possible.",
+          icon: "success",
+          button: "OK",
+        });
+      } else {
+        swal({
+          title: "Email Sent!",
+          text: "Sorry, there was an error sending your message. \nPlease try again later or contact Adminstrator.",
+          icon: "error",
+          button: "OK",
+        });
+      }
+      
+  });
+});
+//configuration for contact us form end here
+
 // <!-- typed js effect starts -->
 var typed = new Typed('.typing-text', {
   strings: [
@@ -84,19 +121,24 @@ window.onload = fadeOut;
 
 // disable developer mode
 document.onkeydown = function (e) {
-  if (e.keyCode == 123) {
+  if (e.code == 123) { // changed from keyCode to Code as keyCode is deprecated
+    e.preventDefault();
     return false;
   }
   if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+    e.preventDefault();
     return false;
   }
   if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+    e.preventDefault();
     return false;
   }
   if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+    e.preventDefault();
     return false;
   }
   if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+    e.preventDefault();
     return false;
   }
 };

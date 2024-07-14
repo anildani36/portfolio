@@ -8,7 +8,7 @@
     <meta name="keywords"
         content="Anil lifecodess,portfolio,lifecodes, Anil Dani, lifecodess,personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
     <meta name="description"
-        content="Welcome to Anil's Portfolio. Passionate Web & App Developer. Freelancer Web Designer and Android Developer." />
+        content="Welcome to Anil's Portfolio. Passionate Web & App Developer. Software Engineer, Web Designer and Business Analyst." />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- Font Awesome -->
@@ -24,7 +24,7 @@
 
     <!-- pre loader -->
     <div class="loader-container">
-        <img draggable="false" src="./assets/~images/preloader.gif" alt="">
+        <img draggable="false" src="./assets/images/preloader.gif" alt="">
     </div>
 
     <!-- navbar starts -->
@@ -113,6 +113,7 @@
         </div>
     </section>
     <!-- about section ends -->
+
 
     <!-- skills section starts -->
     <section class="skills" id="skills">
@@ -292,6 +293,7 @@
     </section>
     <!-- work project section ends -->
 
+
     <!-- experience section starts -->
     <section class="experience" id="experience">
 
@@ -372,6 +374,7 @@
     </section>
     <!-- experience section ends -->
 
+
     <!-- contact section starts -->
     <section class="contact" id="contact">
 
@@ -382,23 +385,23 @@
                 <div class="image-box">
                     <img draggable="false" src="./assets/images/contact1.png" alt="">
                 </div>
-                <form action="#">
+                <form id="userForm" action="#">
 
                     <div class="form-group">
                         <div class="field">
-                            <input type="text" name="name" placeholder="Name" required>
+                            <input type="text" id="name" name="name" placeholder="Name" required>
                             <i class='fas fa-user'></i>
                         </div>
                         <div class="field">
-                            <input type="text" name="email" placeholder="Email" required>
+                            <input type="text" id="email" name="email" placeholder="Email" required>
                             <i class='fas fa-envelope'></i>
                         </div>
                         <div class="field">
-                            <input type="text" name="phone" placeholder="Phone">
+                            <input type="text" id="phone" name="phone" placeholder="Phone">
                             <i class='fas fa-phone-alt'></i>
                         </div>
                         <div class="message">
-                            <textarea placeholder="Message" name="message" required></textarea>
+                            <textarea placeholder="Message" id="message" name="message" required></textarea>
                             <i class="fas fa-comment-dots"></i>
                         </div>
                     </div>
@@ -483,6 +486,9 @@
 
     <!-- scroll reveal anim -->
     <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Sweet Message Alert CDN -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
     <script src="./assets/js/script.js"></script>
