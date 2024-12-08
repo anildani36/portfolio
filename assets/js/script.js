@@ -92,9 +92,9 @@ document.addEventListener('DOMContentLoaded', function () {
 // <!-- typed js effect starts -->
 var typed = new Typed('.typing-text', {
   strings: [
-    'Software Developement Engineer',
-    'Web Developer',
-    'Business Analyst'
+    'Software Engineer',
+    'AWS Migration Engineer',
+    'Web Developer'
   ],
   loop: true,
   typeSpeed: 50,
